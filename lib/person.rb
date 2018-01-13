@@ -23,4 +23,4 @@ class Person
 end
 
 beyonce = Person.new("Beyonce", "Singer")
-beyonce.instance_variable_get(:@name)
+beyonce.instance_variable_set(:@name, "Beyonce")
