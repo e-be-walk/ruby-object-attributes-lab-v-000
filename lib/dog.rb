@@ -13,8 +13,8 @@ class Dog
     @breed = breed
   end
 
-  def dog_type
-    "#{@name} #{@breed}".strip
+  def display
+    puts "I am #{@name}, I am a #{@breed} dog."
   end
 
 end
