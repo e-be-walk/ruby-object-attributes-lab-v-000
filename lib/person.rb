@@ -1,9 +1,4 @@
 class Person
-  def initialize(name, job)
-    @name = name
-    @job = job
-  end
-
   def name
     @name
   end
@@ -22,5 +17,3 @@ class Person
 
 end
 
-beyonce = Person.new("Beyonce", "Singer")
-beyonce.instance_variable_set(:@name, "Beyonce")
