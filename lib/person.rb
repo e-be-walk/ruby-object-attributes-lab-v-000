@@ -20,5 +20,6 @@ class Person
     @job = occupation
   end
 
-  
 end
+
+beyonce = Person.new("Beyonce", "Singer")
