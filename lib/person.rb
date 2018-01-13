@@ -4,15 +4,21 @@ class Person
     @job = job
   end
 
-  def dog_type=(name_breed)
-    name, breed = name_breed.split
-    @name = name
-    @breed = breed
+  def name
+    @name
   end
 
-  def dog_type
-    "#{@name} #{@breed}".strip
+  def name=(new_name)
+    @name = new_name
   end
 
+  def job
+    @job
+  end
+
+  def job=(occupation)
+    @job = occupation
+  end
+
+  
 end
-
