@@ -19,6 +19,6 @@ class Dog
 
 end
 
-fido = Dog.new("Fido", " ")
+fido = Dog.new('Fido', ' ')
 puts fido.inspect
 snoopy = Dog.new("Snoopy", "Beagle")
